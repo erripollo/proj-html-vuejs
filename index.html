@@ -18,7 +18,7 @@
 <body>
 
     <div id="app">
-        
+
         <!-- Site header -->
         <header id="site_header">
     
@@ -43,7 +43,12 @@
         
                     <div class="links">
                         <!-- from Vue js -->
-                        <a href="#">Home</a>
+                        <a
+                            v-for="link in navLinks"
+                            :href="link.link"
+                            class="">
+                            {{link.name}}
+                        </a>
                     </div>
                 </div>
             </nav>
