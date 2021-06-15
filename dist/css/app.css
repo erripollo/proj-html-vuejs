@@ -1,1 +1,15 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;700&display=swap);
+body {
+  font-family: "Mulish", sans-serif;
+}
 
+/******************
+* Site header css 
+*******************/
+/* Banner css */
+#site_header .banner {
+  color: #e5e8eb;
+  background-color: #484848;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
