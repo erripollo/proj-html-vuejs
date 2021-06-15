@@ -46,7 +46,8 @@
                         <a
                             v-for="link in navLinks"
                             :href="link.link"
-                            :class="link.type === 'button' ? 'btn_solid rounded-pill' : '' ">
+                            :class="[link.type === 'button' ? 'btn_solid rounded-pill' : '',
+                            link.status === 'active' ? 'active' : ''] ">
                             {{link.name}}
                             <span
                                 class="new ml-1" 

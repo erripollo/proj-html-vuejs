@@ -32,6 +32,8 @@ body {
 #site_header nav .links a {
   color: white;
   margin-left: 2.5rem;
+  display: inline-block;
+  padding-bottom: 0.3rem;
 }
 #site_header nav .links a:hover {
   text-decoration: none;
@@ -42,4 +44,12 @@ body {
   display: inline-block;
   padding: 3px 5px;
   border-radius: 4px;
+}
+#site_header nav .links .active {
+  color: #7abc64;
+  border-bottom: 2px solid #7abc64;
+}
+#site_header nav .links .btn_solid {
+  padding: 10px 25px;
+  background-color: #7abc64;
 }

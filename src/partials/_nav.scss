@@ -12,6 +12,8 @@
       a {
         color: white;
         margin-left: 2.5rem;
+        display: inline-block;
+        padding-bottom: 0.3rem;
         &:hover {
           text-decoration: none;
         }
@@ -23,6 +25,13 @@
           padding: 3px 5px;
           border-radius: 4px;
         }
+      }
+      .active {
+        color: $brend_color;
+        border-bottom: 2px solid $brend_color;
+      }
+      .btn_solid {
+        @include btn_solid;
       }
     }
   }
