@@ -10,6 +10,11 @@
     font-size: $font_size_s;
     font-weight: 200;
   }
-}
+  //For nav section create new partial
 
-//For nav section create new partial
+  .jumbotron {
+    background-image: url(../img/homepage-hero-background.jpg);
+    background-size: cover;
+    height: 600px;
+  }
+}

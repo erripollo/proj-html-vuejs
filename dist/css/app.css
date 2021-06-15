@@ -3,11 +3,6 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
-.btn_solid {
-  padding: 10px 25px;
-  background-color: #7abc64;
-}
-
 /******************
 * Site header css 
 *******************/
@@ -17,6 +12,11 @@ body {
   background-color: #353637;
   font-size: 0.8rem;
   font-weight: 200;
+}
+#site_header .jumbotron {
+  background-image: url(../img/homepage-hero-background.jpg);
+  background-size: cover;
+  height: 600px;
 }
 
 /* navbar */
