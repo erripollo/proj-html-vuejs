@@ -3,11 +3,26 @@
   nav {
     background-color: #484848;
     padding: 2.5rem 0;
+
     .links {
       text-transform: uppercase;
       font-weight: 700;
+      font-size: 0.9rem;
+
       a {
         color: white;
+        margin-left: 2.5rem;
+        &:hover {
+          text-decoration: none;
+        }
+
+        .new {
+          font-size: 0.6rem;
+          background-color: $brend_color;
+          display: inline-block;
+          padding: 3px 5px;
+          border-radius: 4px;
+        }
       }
     }
   }

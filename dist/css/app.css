@@ -3,6 +3,11 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+.btn_solid {
+  padding: 10px 25px;
+  background-color: #7abc64;
+}
+
 /******************
 * Site header css 
 *******************/
@@ -22,7 +27,19 @@ body {
 #site_header nav .links {
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 0.9rem;
 }
 #site_header nav .links a {
   color: white;
+  margin-left: 2.5rem;
+}
+#site_header nav .links a:hover {
+  text-decoration: none;
+}
+#site_header nav .links a .new {
+  font-size: 0.6rem;
+  background-color: #7abc64;
+  display: inline-block;
+  padding: 3px 5px;
+  border-radius: 4px;
 }
