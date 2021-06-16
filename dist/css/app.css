@@ -15,6 +15,10 @@ h2 {
   color: #494c4e;
 }
 
+h3 {
+  font-weight: 600;
+}
+
 p {
   line-height: 1.9rem;
   font-weight: 300;
@@ -93,4 +97,38 @@ p {
 #site_main .booking .col_left .p_main {
   font-size: 1.3rem;
   line-height: 2.4rem;
+}
+#site_main .booking .form .card_form {
+  text-align: center;
+}
+#site_main .booking .form .card_form h3 {
+  color: #7abc64;
+}
+#site_main .booking .form .card_form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: #a0a5b4;
+  border: 1px solid #dddddd;
+  background-color: #f7f7f7;
+}
+#site_main .booking .form .card_form input::-moz-placeholder {
+  color: #a0a5b4;
+}
+#site_main .booking .form .card_form input:-ms-input-placeholder {
+  color: #a0a5b4;
+}
+#site_main .booking .form .card_form input::placeholder {
+  color: #a0a5b4;
+}
+#site_main .booking .form .card_form .button .btn_solid {
+  padding: 10px 25px;
+  background-color: #7abc64;
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+}
+#site_main .booking .form .card_form .button .btn_solid:hover {
+  text-decoration: none;
 }

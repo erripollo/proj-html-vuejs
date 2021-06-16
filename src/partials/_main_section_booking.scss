@@ -7,5 +7,36 @@
         @include p_main;
       }
     }
+    .form {
+      .card_form {
+        text-align: center;
+        h3 {
+          color: $brend_color;
+        }
+        input {
+          width: 100%;
+          padding: 10px;
+          border-radius: 5px;
+          font-size: 0.9rem;
+          color: $text_color_primary;
+          border: 1px solid #dddddd;
+          background-color: #f7f7f7;
+          &::placeholder {
+            color: $text_color_primary;
+          }
+        }
+        .button {
+          .btn_solid {
+            @include btn_solid;
+            display: inline-block;
+            color: white;
+            text-transform: uppercase;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
   }
 }
