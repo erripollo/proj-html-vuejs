@@ -1,6 +1,8 @@
 @mixin btn_solid {
   padding: 10px 25px;
   background-color: $brend_color;
+  font-weight: 700;
+  font-size: 0.9rem;
 }
 
 @mixin p_main {

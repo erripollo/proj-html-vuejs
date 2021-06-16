@@ -1,9 +1,45 @@
 /* Courses section css */
 #site_main {
   .courses {
+    background-image: url(../img/promise-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $text_color_primary;
     .container {
       .col_left {
         width: 40%;
+        position: relative;
+        .card {
+          position: absolute;
+          width: 95%;
+          top: -30px;
+          left: 0;
+          background-image: url(../img/new-corner.jpg);
+          background-repeat: no-repeat;
+          background-size: 70px;
+          padding: 3rem 2.5rem;
+          text-align: center;
+          border: 0;
+          border-radius: 10px;
+          h2 {
+            margin-bottom: 2rem;
+          }
+          p {
+            margin-bottom: 3rem;
+          }
+          .button {
+            .btn_solid {
+              @include btn_solid;
+              color: white;
+              text-transform: uppercase;
+              display: inline-block;
+              &:hover {
+                text-decoration: none;
+              }
+            }
+          }
+        }
       }
       .col_right {
         width: 60%;

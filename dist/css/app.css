@@ -93,6 +93,8 @@ p {
 #site_header nav .links .btn_solid {
   padding: 10px 25px;
   background-color: #7abc64;
+  font-weight: 700;
+  font-size: 0.9rem;
 }
 
 /* Booking section css */
@@ -136,6 +138,8 @@ p {
 #site_main .booking .form .card_form .button .btn_solid {
   padding: 10px 25px;
   background-color: #7abc64;
+  font-weight: 700;
+  font-size: 0.9rem;
   display: inline-block;
   color: white;
   text-transform: uppercase;
@@ -170,8 +174,47 @@ p {
 }
 
 /* Courses section css */
+#site_main .courses {
+  background-image: url(../img/promise-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #a0a5b4;
+}
 #site_main .courses .container .col_left {
   width: 40%;
+  position: relative;
+}
+#site_main .courses .container .col_left .card {
+  position: absolute;
+  width: 95%;
+  top: -30px;
+  left: 0;
+  background-image: url(../img/new-corner.jpg);
+  background-repeat: no-repeat;
+  background-size: 70px;
+  padding: 3rem 2.5rem;
+  text-align: center;
+  border: 0;
+  border-radius: 10px;
+}
+#site_main .courses .container .col_left .card h2 {
+  margin-bottom: 2rem;
+}
+#site_main .courses .container .col_left .card p {
+  margin-bottom: 3rem;
+}
+#site_main .courses .container .col_left .card .button .btn_solid {
+  padding: 10px 25px;
+  background-color: #7abc64;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+}
+#site_main .courses .container .col_left .card .button .btn_solid:hover {
+  text-decoration: none;
 }
 #site_main .courses .container .col_right {
   width: 60%;
