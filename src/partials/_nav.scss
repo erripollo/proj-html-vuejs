@@ -1,8 +1,12 @@
 /* navbar */
 #site_header {
   nav {
-    background-color: #484848;
+    background-color: #4848487e;
     padding: 2.5rem 0;
+    position: absolute;
+    top: 51px;
+    left: 0;
+    width: 100%;
 
     .links {
       text-transform: uppercase;
