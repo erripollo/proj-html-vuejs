@@ -47,9 +47,16 @@
         .card {
           width: 200px;
           text-align: center;
+          border: none;
+          background-color: transparent;
 
           h4 {
             text-transform: capitalize;
+          }
+          .button {
+            .btn_outline {
+              @include btn_outline;
+            }
           }
         }
       }
