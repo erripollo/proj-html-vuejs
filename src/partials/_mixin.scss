@@ -2,3 +2,8 @@
   padding: 10px 25px;
   background-color: $brend_color;
 }
+
+@mixin p_main {
+  font-size: $font_size_l;
+  line-height: 2.4rem;
+}
