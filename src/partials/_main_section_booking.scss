@@ -2,11 +2,6 @@
 #site_main {
   .booking {
     color: $text_color_primary;
-    .col_left {
-      .p_main {
-        @include p_main;
-      }
-    }
     .form {
       position: relative;
       .card_form {

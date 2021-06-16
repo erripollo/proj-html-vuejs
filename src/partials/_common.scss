@@ -22,3 +22,7 @@ p {
   line-height: 1.9rem;
   font-weight: 300;
 }
+
+.p_main {
+  @include p_main;
+}

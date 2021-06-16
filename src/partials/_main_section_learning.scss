@@ -1,0 +1,20 @@
+/* Start learning section css */
+#site_main {
+  .learning {
+    background-image: url(../img/horizontal-cta-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container {
+      color: white;
+      .col_left {
+        h2 {
+          color: white;
+        }
+        .p_main {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

@@ -24,6 +24,11 @@ p {
   font-weight: 300;
 }
 
+.p_main {
+  font-size: 1.3rem;
+  line-height: 2.4rem;
+}
+
 /******************
 * Site header css 
 *******************/
@@ -94,10 +99,6 @@ p {
 #site_main .booking {
   color: #a0a5b4;
 }
-#site_main .booking .col_left .p_main {
-  font-size: 1.3rem;
-  line-height: 2.4rem;
-}
 #site_main .booking .form {
   position: relative;
 }
@@ -141,4 +142,21 @@ p {
 }
 #site_main .booking .form .card_form .button .btn_solid:hover {
   text-decoration: none;
+}
+
+/* Start learning section css */
+#site_main .learning {
+  background-image: url(../img/horizontal-cta-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#site_main .learning .container {
+  color: white;
+}
+#site_main .learning .container .col_left h2 {
+  color: white;
+}
+#site_main .learning .container .col_left .p_main {
+  font-weight: 600;
 }
