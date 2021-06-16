@@ -168,3 +168,11 @@ p {
   padding-right: 4.5rem;
   font-size: 2rem;
 }
+
+/* Courses section css */
+#site_main .courses .container .col_left {
+  width: 40%;
+}
+#site_main .courses .container .col_right {
+  width: 60%;
+}
