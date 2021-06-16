@@ -8,12 +8,18 @@
     .container {
       color: white;
       .col_left {
+        height: 250px;
         h2 {
           color: white;
+          margin: 0;
         }
         .p_main {
           font-weight: 600;
         }
+      }
+      .col_right {
+        padding-right: 4.5rem;
+        font-size: 2rem;
       }
     }
   }

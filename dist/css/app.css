@@ -154,9 +154,17 @@ p {
 #site_main .learning .container {
   color: white;
 }
+#site_main .learning .container .col_left {
+  height: 250px;
+}
 #site_main .learning .container .col_left h2 {
   color: white;
+  margin: 0;
 }
 #site_main .learning .container .col_left .p_main {
   font-weight: 600;
+}
+#site_main .learning .container .col_right {
+  padding-right: 4.5rem;
+  font-size: 2rem;
 }
