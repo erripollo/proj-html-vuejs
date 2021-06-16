@@ -98,8 +98,18 @@ p {
   font-size: 1.3rem;
   line-height: 2.4rem;
 }
+#site_main .booking .form {
+  position: relative;
+}
 #site_main .booking .form .card_form {
+  background-color: white;
   text-align: center;
+  border-radius: 10px;
+  padding: 3rem 2.5rem;
+  position: absolute;
+  top: -120px;
+  right: 0;
+  width: 90%;
 }
 #site_main .booking .form .card_form h3 {
   color: #7abc64;
