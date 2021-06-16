@@ -52,6 +52,19 @@ var app = new Vue({
       status: '',
       type: 'button',
       create: ''
+    }],
+    courses: [{
+      name: 'Pass plus',
+      link: '#',
+      img: 'courses-passplus-200x200.jpg'
+    }, {
+      name: 'Intensive course',
+      link: '#',
+      img: 'courses-intensive-200x200.jpg'
+    }, {
+      name: 'Instructors',
+      link: '#',
+      img: 'courses-instructors-200x200.jpg'
     }]
   },
   methods: {},
