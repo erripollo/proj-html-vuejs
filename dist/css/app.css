@@ -180,6 +180,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   color: #a0a5b4;
+  padding: 5rem 0;
 }
 #site_main .courses .container .col_left {
   width: 40%;
@@ -187,8 +188,8 @@ p {
 }
 #site_main .courses .container .col_left .card {
   position: absolute;
-  width: 95%;
-  top: -30px;
+  width: 92%;
+  top: -7rem;
   left: 0;
   background-image: url(../img/new-corner.jpg);
   background-repeat: no-repeat;
@@ -218,4 +219,11 @@ p {
 }
 #site_main .courses .container .col_right {
   width: 60%;
+}
+#site_main .courses .container .col_right .card {
+  width: 200px;
+  text-align: center;
+}
+#site_main .courses .container .col_right .card h4 {
+  text-transform: capitalize;
 }

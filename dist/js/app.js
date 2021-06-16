@@ -60,11 +60,11 @@ var app = new Vue({
     }, {
       name: 'Intensive course',
       link: '#',
-      img: 'courses-intensive-200x200.jpg'
+      img: 'course-intensive-200x200.jpg'
     }, {
       name: 'Instructors',
       link: '#',
-      img: 'courses-instructors-200x200.jpg'
+      img: 'courses-instructor-200x200.jpg'
     }]
   },
   methods: {},

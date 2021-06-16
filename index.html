@@ -140,12 +140,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col_right">
-                        <div class="card">
-                            <img width="200px" src="./dist/img/courses-passplus-200x200.jpg" alt="">
-                            <h4>Pass Plus</h4>
+                    <div class="col_right d-flex justify-content-between flex-wrap">
+                        <!-- Add courses from Vue js -->
+                        <div 
+                        class="card"
+                        v-for="course in courses">
+                            <img :src="'./dist/img/'+ course.img" alt="">
+                            <h4>{{course.name}}</h4>
                             <div class="button">
-                                <a class="" href="#">Learn more</a>
+                                <a class="" :href="course.link">Learn more</a>
                             </div>
                         </div>
                     </div>
