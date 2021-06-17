@@ -76,15 +76,15 @@ const app = new Vue ({
     methods:{},
 
     mounted(){
-        const numb = document.querySelector(".number");
+       /*  const numb = document.querySelector(".number");
         let counter = 0;
         setInterval(() => {
-            if(counter == 100 ){
+            if(counter == 95 ){
                 clearInterval();
             }else{
                 counter+=1;
                 numb.textContent = counter + "%";
             }
-        }, 80);
+        }, 80); */
     }
 })

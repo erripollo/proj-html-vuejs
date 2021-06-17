@@ -69,16 +69,16 @@ var app = new Vue({
   },
   methods: {},
   mounted: function mounted() {
-    var numb = document.querySelector(".number");
-    var counter = 0;
-    setInterval(function () {
-      if (counter == 100) {
-        clearInterval();
-      } else {
-        counter += 1;
-        numb.textContent = counter + "%";
-      }
-    }, 80);
+    /*  const numb = document.querySelector(".number");
+     let counter = 0;
+     setInterval(() => {
+         if(counter == 95 ){
+             clearInterval();
+         }else{
+             counter+=1;
+             numb.textContent = counter + "%";
+         }
+     }, 80); */
   }
 });
 

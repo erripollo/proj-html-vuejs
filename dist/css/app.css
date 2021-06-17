@@ -191,7 +191,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   color: #a0a5b4;
-  padding: 5rem 0;
+  padding: 5rem 0 8rem;
 }
 #site_main .courses .container .col_left {
   width: 40%;
@@ -262,6 +262,7 @@ p {
   border-radius: 10px;
   border: none;
   border-top: 5px solid #7abc64;
+  margin: 0 8px;
 }
 #site_main .rate_cards .container .card .progress_circle .circular {
   height: 200px;
@@ -312,12 +313,12 @@ p {
 }
 @-webkit-keyframes left {
   100% {
-    transform: rotate(180deg);
+    transform: rotate(5deg);
   }
 }
 @keyframes left {
   100% {
-    transform: rotate(180deg);
+    transform: rotate(5deg);
   }
 }
 #site_main .rate_cards .container .card .progress_circle .circular .circle .right {
@@ -332,12 +333,12 @@ p {
 }
 @-webkit-keyframes right {
   100% {
-    transform: rotate(180deg);
+    transform: rotate(0deg);
   }
 }
 @keyframes right {
   100% {
-    transform: rotate(180deg);
+    transform: rotate(0deg);
   }
 }
 #site_main .rate_cards .container .card h5 {
