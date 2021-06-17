@@ -81,6 +81,23 @@ var app = new Vue({
       name: 'Angela',
       surname: 'Hart',
       summary: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+    }],
+    contacts: [{
+      type: 'addres',
+      info: '12345 North Main Street, New York, NY 555555',
+      icon: 'fas fa-home'
+    }, {
+      type: 'phone',
+      info: '1.800.555.6789',
+      icon: 'fas fa-phone'
+    }, {
+      type: 'email',
+      info: 'info@your-domain.com',
+      icon: 'far fa-envelope'
+    }, {
+      type: 'site',
+      info: 'Theme-Fusion.com',
+      icon: 'fas fa-link'
     }]
   },
   methods: {},
