@@ -5,6 +5,21 @@
   font-size: 0.9rem;
 }
 
+@mixin btn_solid_lg {
+  padding: 10px 0px;
+  display: inline-block;
+  width: 100%;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: $brend_color;
+  font-weight: 700;
+  font-size: 0.9rem;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 @mixin btn_outline {
   padding: 6px 16px;
   font-size: 0.7rem;

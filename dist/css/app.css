@@ -256,6 +256,9 @@ p {
 }
 
 /* Circular progress bar css */
+#site_main .rate_cards {
+  padding-bottom: 8rem;
+}
 #site_main .rate_cards .container .card {
   text-align: center;
   width: calc(100% / 3);
@@ -344,4 +347,32 @@ p {
 #site_main .rate_cards .container .card h5 {
   text-transform: uppercase;
   color: #a0a5b4;
+}
+
+/* Instructors section css */
+#site_main .instructors .container .col_left {
+  width: 65%;
+}
+#site_main .instructors .container .col_left h2 {
+  margin-bottom: 2rem;
+}
+#site_main .instructors .container .col_left p {
+  color: #a0a5b4;
+}
+#site_main .instructors .container .col_right {
+  width: 35%;
+}
+#site_main .instructors .container .col_right .button .btn_solid_lg {
+  padding: 10px 0px;
+  display: inline-block;
+  width: 100%;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #7abc64;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+#site_main .instructors .container .col_right .button .btn_solid_lg:hover {
+  text-decoration: none;
 }
