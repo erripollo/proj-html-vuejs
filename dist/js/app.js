@@ -68,7 +68,18 @@ var app = new Vue({
     }]
   },
   methods: {},
-  mounted: function mounted() {}
+  mounted: function mounted() {
+    var numb = document.querySelector(".number");
+    var counter = 0;
+    setInterval(function () {
+      if (counter == 100) {
+        clearInterval();
+      } else {
+        counter += 1;
+        numb.textContent = counter + "%";
+      }
+    }, 80);
+  }
 });
 
 /***/ }),
