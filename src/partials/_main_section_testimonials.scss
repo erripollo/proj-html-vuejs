@@ -5,13 +5,35 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 200px 0;
+    padding: 180px 0 150px;
     .container_sm {
-      width: 600px;
+      width: 610px;
       margin: auto;
       text-align: center;
       p {
         color: $text_color_primary;
+        margin-bottom: 3rem;
+      }
+      .card_testimonial {
+        p {
+          font-style: italic;
+          letter-spacing: 1px;
+          font-size: 1.1rem;
+          margin: 1.8rem 0;
+        }
+        .name {
+          color: #929aa4;
+          font-size: 1.2rem;
+          font-weight: 600;
+        }
+        .slide_indicator {
+          color: #929aa4;
+          font-size: 0.7rem;
+          margin: 1.8rem;
+          i {
+            margin: 0 3px;
+          }
+        }
       }
     }
   }

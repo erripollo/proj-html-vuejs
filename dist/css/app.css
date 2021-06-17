@@ -412,13 +412,41 @@ p {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 200px 0;
+  padding: 180px 0 150px;
 }
 #site_main .testimonials .container_sm {
-  width: 600px;
+  width: 610px;
   margin: auto;
   text-align: center;
 }
 #site_main .testimonials .container_sm p {
   color: #a0a5b4;
+  margin-bottom: 3rem;
+}
+#site_main .testimonials .container_sm .card_testimonial p {
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  margin: 1.8rem 0;
+}
+#site_main .testimonials .container_sm .card_testimonial .name {
+  color: #929aa4;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+#site_main .testimonials .container_sm .card_testimonial .slide_indicator {
+  color: #929aa4;
+  font-size: 0.7rem;
+  margin: 1.8rem;
+}
+#site_main .testimonials .container_sm .card_testimonial .slide_indicator i {
+  margin: 0 3px;
+}
+
+/* Latest news section css */
+#site_main .news {
+  background-image: url(../img/latestnews-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
