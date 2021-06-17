@@ -37,3 +37,8 @@ p {
 .p_main {
   @include p_main;
 }
+
+.container_sm {
+  width: 610px;
+  margin: auto;
+}

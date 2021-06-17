@@ -40,6 +40,11 @@ p {
   line-height: 2.4rem;
 }
 
+.container_sm {
+  width: 610px;
+  margin: auto;
+}
+
 /******************
 * Site header css 
 *******************/
@@ -415,8 +420,6 @@ p {
   padding: 180px 0 150px;
 }
 #site_main .testimonials .container_sm {
-  width: 610px;
-  margin: auto;
   text-align: center;
 }
 #site_main .testimonials .container_sm p {
@@ -509,3 +512,5 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* Newsletter section css */
