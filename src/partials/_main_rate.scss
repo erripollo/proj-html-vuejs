@@ -1,75 +1,89 @@
 /* Circular progress bar css */
 #site_main {
   .rate_cards {
-    .card {
-      .progress_circle {
-        .circular {
-          height: 100px;
-          width: 100px;
-          position: relative;
-          .inner {
-            position: absolute;
-            z-index: 6;
-            top: 50%;
-            left: 50%;
-            height: 80px;
-            width: 80px;
-            margin: -40px 0 0 -40px;
-            background-color: white;
-            border-radius: 100%;
-          }
-          .number {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 10;
-            font-size: 18px;
-            font-weight: 500;
-            color: $text_color_primary;
-          }
-          .circle {
-            .bar {
+    .container {
+      .card {
+        text-align: center;
+        width: calc(100% / 3);
+        border-radius: 10px;
+        border: none;
+        border-top: 5px solid $brend_color;
+
+        .progress_circle {
+          .circular {
+            height: 200px;
+            width: 200px;
+            position: relative;
+
+            .inner {
               position: absolute;
-              height: 100%;
-              width: 100%;
-              background: #f6f6f6;
+              z-index: 6;
+              top: 50%;
+              left: 50%;
+              height: 180px;
+              width: 180px;
+              margin: -90px 0 0 -90px;
+              background-color: white;
               border-radius: 100%;
-              clip: rect(0px, 100px, 100px, 50px);
-              .progress {
+            }
+            .number {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              z-index: 10;
+              font-size: 3rem;
+              font-weight: 300;
+              color: $text_color_primary;
+            }
+            .circle {
+              .bar {
                 position: absolute;
                 height: 100%;
                 width: 100%;
+                background: #f6f6f6;
                 border-radius: 100%;
-                clip: rect(0px, 50px, 100px, 0px);
-                background: $brend_color;
-              }
-            }
-            .left {
-              .progress {
-                z-index: 1;
-                animation: left 4s linear both;
-              }
-              @keyframes left {
-                100% {
-                  transform: rotate(180deg);
+                clip: rect(0px, 200px, 200px, 100px);
+                .progress {
+                  position: absolute;
+                  height: 100%;
+                  width: 100%;
+                  border-radius: 100%;
+                  clip: rect(0px, 100px, 200px, 0px);
+                  background: $brend_color;
                 }
               }
-            }
-            .right {
-              transform: rotate(180deg);
-              z-index: 3;
-              .progress {
-                animation: right 4s linear both;
-                animation-delay: 4s;
+              .left {
+                .progress {
+                  z-index: 1;
+                  animation: left 4s linear both;
+                }
+                @keyframes left {
+                  100% {
+                    transform: rotate(180deg);
+                  }
+                }
               }
-              @keyframes right {
-                100% {
-                  transform: rotate(180deg);
+              .right {
+                transform: rotate(180deg);
+                z-index: 3;
+                .progress {
+                  animation: right 4s linear both;
+                  animation-delay: 4s;
+                }
+                @keyframes right {
+                  100% {
+                    transform: rotate(180deg);
+                  }
                 }
               }
             }
           }
+        }
+
+        h5 {
+          text-transform: uppercase;
+          color: $text_color_primary;
         }
       }
     }

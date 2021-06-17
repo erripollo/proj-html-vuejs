@@ -25,6 +25,11 @@ h4 {
   color: #7799ad;
 }
 
+h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
 p {
   line-height: 1.9rem;
   font-weight: 300;
@@ -251,49 +256,56 @@ p {
 }
 
 /* Circular progress bar css */
-#site_main .rate_cards .card .progress_circle .circular {
-  height: 100px;
-  width: 100px;
+#site_main .rate_cards .container .card {
+  text-align: center;
+  width: calc(100% / 3);
+  border-radius: 10px;
+  border: none;
+  border-top: 5px solid #7abc64;
+}
+#site_main .rate_cards .container .card .progress_circle .circular {
+  height: 200px;
+  width: 200px;
   position: relative;
 }
-#site_main .rate_cards .card .progress_circle .circular .inner {
+#site_main .rate_cards .container .card .progress_circle .circular .inner {
   position: absolute;
   z-index: 6;
   top: 50%;
   left: 50%;
-  height: 80px;
-  width: 80px;
-  margin: -40px 0 0 -40px;
+  height: 180px;
+  width: 180px;
+  margin: -90px 0 0 -90px;
   background-color: white;
   border-radius: 100%;
 }
-#site_main .rate_cards .card .progress_circle .circular .number {
+#site_main .rate_cards .container .card .progress_circle .circular .number {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 3rem;
+  font-weight: 300;
   color: #a0a5b4;
 }
-#site_main .rate_cards .card .progress_circle .circular .circle .bar {
+#site_main .rate_cards .container .card .progress_circle .circular .circle .bar {
   position: absolute;
   height: 100%;
   width: 100%;
   background: #f6f6f6;
   border-radius: 100%;
-  clip: rect(0px, 100px, 100px, 50px);
+  clip: rect(0px, 200px, 200px, 100px);
 }
-#site_main .rate_cards .card .progress_circle .circular .circle .bar .progress {
+#site_main .rate_cards .container .card .progress_circle .circular .circle .bar .progress {
   position: absolute;
   height: 100%;
   width: 100%;
   border-radius: 100%;
-  clip: rect(0px, 50px, 100px, 0px);
+  clip: rect(0px, 100px, 200px, 0px);
   background: #7abc64;
 }
-#site_main .rate_cards .card .progress_circle .circular .circle .left .progress {
+#site_main .rate_cards .container .card .progress_circle .circular .circle .left .progress {
   z-index: 1;
   -webkit-animation: left 4s linear both;
           animation: left 4s linear both;
@@ -308,11 +320,11 @@ p {
     transform: rotate(180deg);
   }
 }
-#site_main .rate_cards .card .progress_circle .circular .circle .right {
+#site_main .rate_cards .container .card .progress_circle .circular .circle .right {
   transform: rotate(180deg);
   z-index: 3;
 }
-#site_main .rate_cards .card .progress_circle .circular .circle .right .progress {
+#site_main .rate_cards .container .card .progress_circle .circular .circle .right .progress {
   -webkit-animation: right 4s linear both;
           animation: right 4s linear both;
   -webkit-animation-delay: 4s;
@@ -327,4 +339,8 @@ p {
   100% {
     transform: rotate(180deg);
   }
+}
+#site_main .rate_cards .container .card h5 {
+  text-transform: uppercase;
+  color: #a0a5b4;
 }
