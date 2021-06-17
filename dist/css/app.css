@@ -376,3 +376,23 @@ p {
 #site_main .instructors .container .col_right .button .btn_solid_lg:hover {
   text-decoration: none;
 }
+#site_main .instructors .container .cards_instructors .card {
+  width: calc(100% / 3);
+  padding: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  border-top: 5px solid #7abc64;
+}
+#site_main .instructors .container .cards_instructors .card:hover {
+  cursor: pointer;
+}
+#site_main .instructors .container .cards_instructors .card:hover .image {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#site_main .instructors .container .cards_instructors .card i {
+  margin: 0 10px;
+  color: #a0a5b4;
+}
+#site_main .instructors .container .cards_instructors .card p {
+  color: #a0a5b4;
+}

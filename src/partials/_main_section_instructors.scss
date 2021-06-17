@@ -19,6 +19,29 @@
           }
         }
       }
+      .cards_instructors {
+        .card {
+          width: calc(100% / 3);
+          padding: 2.5rem;
+          border: none;
+          border-radius: 10px;
+          border-top: 5px solid $brend_color;
+          &:hover {
+            cursor: pointer;
+          }
+          &:hover .image {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          }
+          i {
+            margin: 0 10px;
+            color: $text_color_primary;
+          }
+          p {
+            color: $text_color_primary;
+          }
+        }
+      }
     }
   }
 }
