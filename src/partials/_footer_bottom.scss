@@ -1,0 +1,18 @@
+.footer_bottom {
+  background-color: #1c1d1e;
+  padding: 3rem 0;
+  p {
+    color: #465362;
+    font-size: 0.8rem;
+    span {
+      color: $brend_color;
+    }
+  }
+  .icon {
+    color: white;
+    i {
+      font-size: 0.9rem;
+      margin-left: 15px;
+    }
+  }
+}

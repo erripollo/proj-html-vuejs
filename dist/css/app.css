@@ -267,6 +267,7 @@ p {
 
 /* Circular progress bar css */
 #site_main .rate_cards {
+  padding-top: 4rem;
   padding-bottom: 8rem;
 }
 #site_main .rate_cards .container .card {
@@ -641,4 +642,23 @@ p {
 }
 .img .button .btn_solid:hover {
   text-decoration: none;
+}
+
+.footer_bottom {
+  background-color: #1c1d1e;
+  padding: 3rem 0;
+}
+.footer_bottom p {
+  color: #465362;
+  font-size: 0.8rem;
+}
+.footer_bottom p span {
+  color: #7abc64;
+}
+.footer_bottom .icon {
+  color: white;
+}
+.footer_bottom .icon i {
+  font-size: 0.9rem;
+  margin-left: 15px;
 }
