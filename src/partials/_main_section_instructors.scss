@@ -21,8 +21,9 @@
       }
       .cards_instructors {
         .card {
+          min-height: 450px;
           width: calc(100% / 3);
-          padding: 2.5rem;
+          padding: 2.5rem 2.5rem 1rem;
           border: none;
           border-radius: 10px;
           border-top: 5px solid $brend_color;
@@ -40,6 +41,8 @@
           p {
             color: $text_color_primary;
           }
+        }
+        .card_ctr {
         }
       }
     }

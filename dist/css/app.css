@@ -265,7 +265,6 @@ p {
   border-radius: 10px;
   border: none;
   border-top: 5px solid #7abc64;
-  margin: 0 8px;
 }
 #site_main .rate_cards .container .card .progress_circle .circular {
   height: 200px;
@@ -377,8 +376,9 @@ p {
   text-decoration: none;
 }
 #site_main .instructors .container .cards_instructors .card {
+  min-height: 450px;
   width: calc(100% / 3);
-  padding: 2.5rem;
+  padding: 2.5rem 2.5rem 1rem;
   border: none;
   border-radius: 10px;
   border-top: 5px solid #7abc64;

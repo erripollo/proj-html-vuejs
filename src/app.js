@@ -70,6 +70,27 @@ const app = new Vue ({
                 link: '#',
                 img: 'courses-instructor-200x200.jpg'
             },
+        ],
+
+        instructors:[
+            {
+                img: 'instructor-mikehart-400x254.jpg',
+                name: 'Mike',
+                surname: 'Hart',
+                summary: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas praesentium.'
+            },
+            {
+                img: 'instructor-johnsmith-400x254.jpg',
+                name: 'John',
+                surname: 'Smith',
+                summary: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut rem!'
+            },
+            {
+                img: 'instructor-angelahart-400x254.jpg',
+                name: 'Angela',
+                surname: 'Hart',
+                summary: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+            },
         ]
     },
 

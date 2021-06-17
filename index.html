@@ -182,7 +182,7 @@
                         </div>
                         <h5 class="mt-5">Pass rate</h5>
                     </div>
-                    <div class="card d-flex flex-column align-items-center py-5 shadow-lg">
+                    <div class="card mx-3 d-flex flex-column align-items-center py-5 shadow-lg">
                         <div class="progress_circle">
                             <!-- Circular progress bar -->
                             <div class="circular">
@@ -238,11 +238,17 @@
                         </div>
                     </div>
                     <div class="cards_instructors w-100 d-flex">
-                        <div class="card d-flex flex-column align-items-center shadow-lg">
+                        <!-- Add frome Vue js -->
+                        <div v-for="(instructor, index) in instructors"
+                        :class="index === 1 ? 'mx-3 card_ctr' : ''" 
+                        class="card d-flex flex-column align-items-center shadow-lg">
                             <div class="image mb-4">
-                                <img class="w-100" src="./dist/img/instructor-mikehart-400x254.jpg" alt="">
+                                <img 
+                                class="w-100" 
+                                :src="'./dist/img/' + instructor.img" 
+                                alt="">
                             </div>
-                            <h3>Mike Hart</h3>
+                            <h3>{{instructor.name}} {{instructor.surname}}</h3>
                             <div class="social_icons py-2">
                                 <a href="#">
                                     <i class="fab fa-facebook-f"></i>
@@ -256,7 +262,7 @@
                             </div>
                             <div class="summary text-center">
                                 <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, alias.
+                                   {{instructor.summary}}
                                 </p>
                             </div>
 
