@@ -1,0 +1,26 @@
+/******************
+* Site footer css 
+*******************/
+
+#site_footer {
+  .footer_top {
+    background-image: url(../img/footer-background-color.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0;
+    .container {
+      .logo {
+        width: calc(100% / 4);
+        img {
+          width: 200px;
+        }
+        p {
+          font-size: 0.8rem;
+          color: $text_color_primary;
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}

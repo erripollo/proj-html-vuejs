@@ -559,3 +559,25 @@ p {
   font-size: 0.8rem;
   color: #a0a5b4;
 }
+
+/******************
+* Site footer css 
+*******************/
+#site_footer .footer_top {
+  background-image: url(../img/footer-background-color.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 0;
+}
+#site_footer .footer_top .container .logo {
+  width: calc(100% / 4);
+}
+#site_footer .footer_top .container .logo img {
+  width: 200px;
+}
+#site_footer .footer_top .container .logo p {
+  font-size: 0.8rem;
+  color: #a0a5b4;
+  margin-top: 1rem;
+}
