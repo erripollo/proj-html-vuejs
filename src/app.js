@@ -66,6 +66,11 @@ const app = new Vue ({
                 img: 'course-intensive-200x200.jpg'
             },
             {
+                name: 'Automatic',
+                link: '#',
+                img: ''
+            },
+            {
                 name: 'Instructors',
                 link: '#',
                 img: 'courses-instructor-200x200.jpg'

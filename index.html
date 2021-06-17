@@ -148,7 +148,8 @@
                         <!-- Add courses from Vue js -->
                         <div 
                         class="card"
-                        v-for="course in courses">
+                        v-for="course in courses"
+                        v-if="course.name !== 'Automatic'">
                             <img :src="'./dist/img/'+ course.img" alt="">
                             <h4 class="mt-4 mb-3">{{course.name}}</h4>
                             <div class="button">
@@ -387,24 +388,28 @@
                     </div>
                     <div class="contacts">
                         <h4>Contact details</h4>
-                        <div class="contact">
+                        <div 
+                        v-for="contact in contacts"
+                        class="contact">
                             <div class="icon">
-                                <i></i>
+                                <i :class="contact.icon"></i>
                             </div>
                             <div class="info">
-    
+                                <p>{{contact.info}}</p>
                             </div>
     
                         </div>
                     </div>
                     <div class="courses">
                         <h4>Courses</h4>
-                        <div class="course">
+                        <div 
+                        v-for="course in courses"
+                        class="course">
                             <div class="icon">
-    
+                                <i class="far fa-arrow-alt-circle-right"></i>
                             </div>
                             <div class="info">
-    
+                                {{course.name}}
                             </div>
     
                         </div>
