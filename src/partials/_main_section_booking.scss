@@ -6,6 +6,7 @@
 #site_main {
   .booking {
     color: $text_color_primary;
+    height: 600px;
     .form {
       position: relative;
       .card_form {
@@ -23,6 +24,7 @@
         input {
           width: 100%;
           padding: 10px;
+          margin-bottom: 2rem;
           border-radius: 5px;
           font-size: 0.9rem;
           color: $text_color_primary;

@@ -119,6 +119,7 @@ p {
 /* Booking section css */
 #site_main .booking {
   color: #a0a5b4;
+  height: 600px;
 }
 #site_main .booking .form {
   position: relative;
@@ -139,6 +140,7 @@ p {
 #site_main .booking .form .card_form input {
   width: 100%;
   padding: 10px;
+  margin-bottom: 2rem;
   border-radius: 5px;
   font-size: 0.9rem;
   color: #a0a5b4;
@@ -572,6 +574,7 @@ p {
 }
 #site_footer .footer_top .container .logo {
   width: calc(100% / 4);
+  padding-right: 1rem;
 }
 #site_footer .footer_top .container .logo img {
   width: 200px;
@@ -580,4 +583,62 @@ p {
   font-size: 0.8rem;
   color: #a0a5b4;
   margin-top: 1rem;
+}
+#site_footer .footer_top .container .contacts {
+  width: calc(100% / 4);
+  padding: 0 2rem;
+}
+#site_footer .footer_top .container .contacts .title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+#site_footer .footer_top .container .contacts .contact {
+  color: #a0a5b4;
+  font-size: 0.8rem;
+}
+#site_footer .footer_top .container .contacts .contact .icon {
+  font-size: 1.1rem;
+  margin-right: 15px;
+  margin-top: 8px;
+}
+#site_footer .footer_top .container .contacts .contact .info p {
+  margin: 5px;
+}
+
+#site_footer .courses {
+  width: calc(100% / 4);
+  padding-right: 4rem;
+}
+#site_footer .courses .title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+#site_footer .courses .course {
+  color: #7abc64;
+  margin-bottom: 1rem;
+}
+#site_footer .courses .course .icon {
+  margin-right: 15px;
+}
+#site_footer .courses .course .info {
+  font-size: 1.1rem;
+}
+
+.img {
+  width: calc(100% / 4);
+}
+.img .button .btn_solid {
+  padding: 10px 25px;
+  background-color: #7abc64;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: white;
+  text-transform: uppercase;
+}
+.img .button .btn_solid:hover {
+  text-decoration: none;
 }

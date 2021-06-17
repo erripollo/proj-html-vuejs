@@ -12,6 +12,7 @@
     .container {
       .logo {
         width: calc(100% / 4);
+        padding-right: 1rem;
         img {
           width: 200px;
         }
@@ -20,6 +21,68 @@
           color: $text_color_primary;
           margin-top: 1rem;
         }
+      }
+
+      .contacts {
+        width: calc(100% / 4);
+        padding: 0 2rem;
+        .title {
+          color: white;
+          text-transform: uppercase;
+          font-weight: 600;
+          margin-bottom: 1.5rem;
+        }
+        .contact {
+          color: $text_color_primary;
+          font-size: 0.8rem;
+          .icon {
+            font-size: 1.1rem;
+            margin-right: 15px;
+            margin-top: 8px;
+          }
+          .info {
+            p {
+              margin: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#site_footer .courses {
+  width: calc(100% / 4);
+  padding-right: 4rem;
+
+  .title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  .course {
+    color: $brend_color;
+    margin-bottom: 1rem;
+    .icon {
+      margin-right: 15px;
+    }
+
+    .info {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.img {
+  width: calc(100% / 4);
+  .button {
+    .btn_solid {
+      @include btn_solid;
+      color: white;
+      text-transform: uppercase;
+      &:hover {
+        text-decoration: none;
       }
     }
   }

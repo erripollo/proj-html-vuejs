@@ -96,10 +96,13 @@
                                 When you make a block booking with us your first lesson is included free.
                             </p>
 
-                            <!-- Add input from Vue js -->
+                            
                             <input type="text" placeholder="Your Name*">
+                            <input type="mail" placeholder="Email*">
+                            <input type="tel" placeholder="Telephone">
+                            <input type="text" placeholder="Location">
 
-                            <div class="button pt-4">
+                            <div class="button">
                                 <a class="btn_solid rounded-pill" href="#">Request a callback</a>
                             </div>
                         </div>
@@ -387,10 +390,10 @@
                         </p>
                     </div>
                     <div class="contacts">
-                        <h4>Contact details</h4>
+                        <div class="title">Contact details</div>
                         <div 
                         v-for="contact in contacts"
-                        class="contact">
+                        class="contact d-flex">
                             <div class="icon">
                                 <i :class="contact.icon"></i>
                             </div>
@@ -401,10 +404,10 @@
                         </div>
                     </div>
                     <div class="courses">
-                        <h4>Courses</h4>
+                        <div class="title">Courses</div>
                         <div 
                         v-for="course in courses"
-                        class="course">
+                        class="course d-flex align-items-center">
                             <div class="icon">
                                 <i class="far fa-arrow-alt-circle-right"></i>
                             </div>
@@ -414,10 +417,10 @@
     
                         </div>
                     </div>
-                    <div class="img">
-                        <img src="./dist/img/footer-ad-grid-400x357.png" alt="">
-                        <div class="button">
-                            <a href="#" class="btn_solid">
+                    <div class="img text-center d-flex flex-column align-items-center">
+                        <img width="300px" src="./dist/img/footer-ad-grid-400x357.png" alt="">
+                        <div class="button mt-4">
+                            <a href="#" class="btn_solid rounded-pill">
                                 Book now
                             </a>
                         </div>
