@@ -349,6 +349,10 @@ p {
 }
 
 /* Instructors section css */
+#site_main .instructors .container {
+  height: 650px;
+  position: relative;
+}
 #site_main .instructors .container .col_left {
   width: 65%;
 }
@@ -375,6 +379,11 @@ p {
 #site_main .instructors .container .col_right .button .btn_solid_lg:hover {
   text-decoration: none;
 }
+#site_main .instructors .container .cards_instructors {
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+}
 #site_main .instructors .container .cards_instructors .card {
   min-height: 450px;
   width: calc(100% / 3);
@@ -394,5 +403,22 @@ p {
   color: #a0a5b4;
 }
 #site_main .instructors .container .cards_instructors .card p {
+  color: #a0a5b4;
+}
+
+/* Testimonials section css */
+#site_main .testimonials {
+  background-image: url(../img/testimonial-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+}
+#site_main .testimonials .container_sm {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+#site_main .testimonials .container_sm p {
   color: #a0a5b4;
 }

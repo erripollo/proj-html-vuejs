@@ -1,0 +1,18 @@
+/* Testimonials section css */
+#site_main {
+  .testimonials {
+    background-image: url(../img/testimonial-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    .container_sm {
+      width: 600px;
+      margin: auto;
+      text-align: center;
+      p {
+        color: $text_color_primary;
+      }
+    }
+  }
+}
